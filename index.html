@@ -12,7 +12,15 @@
 </head>
 <body>
     <div class="container">
-        <header>
+
+        <div class="ham">
+            <div class="line" id="line1"></div>
+            <div class="line" id="line2"></div>
+            <div class="line" id="line3"></div>
+            <span>Fechar</span>
+        </div>
+
+        <header id="home">
             <div class="img-wrapper">
             <img src="/images/baner.jpg" alt="banner">
             </div>
@@ -22,6 +30,226 @@
                 <button>Saiba mais</button>
             </div>
         </header>
+
+        <aside class="sidebar">
+            <nav>
+                <ul class="menu">
+
+                    <li class="menuitem"><a href="#home" class="menu-link">Home</a></li>
+                    <li class="menuitem"><a href="#conhecimentos" class="menu-link">Conhecimento</a></li>
+                    <li class="menuitem"><a href="#projetos" class="menu-link">Projetos</a></li>
+                    <li class="menuitem"><a href="#contatos" class="menu-link">Contatos</a></li>
+                    <li class="menuitem"><a href="#" class="menu-link">Sobre</a></li>
+                    <li class="menuitem"><a href="#orcamentos" class="menu-link">Orçamento</a></li>
+                    
+                </ul>
+            </nav>
+            <div class="social-media">
+                <a href="#"><i class="fab fa-facebook"></i></a>
+                <a href="#"><i class="fab fa-github"></i></a>
+                <a href="#"><i class="fab fa-linkedin"></i></a>
+            </div>
+        </aside>
+
+        <section class="sessao-conhecimentos" id="conhecimentos">
+            <div class="sessao-header">
+                <h1>Conhecimentos</h1>
+            </div>
+            <div class="conhecimentos">
+                <div class="conhecimento">
+                    <div class="conhecimnto-header">
+                        <i class="fab fa-html5"></i>
+                        <h3>HTML</h3>
+                    </div>
+                    <div class="conhecimento-text">
+                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+                            Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
+                    </div> 
+                </div>
+
+                <div class="conhecimento">
+                    <div class="conhecimnto-header">
+                        <i class="fab fa-css3-alt"></i>
+                        <h3>CSS</h3>
+                    </div>
+                    <div class="conhecimento-text">
+                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+                            Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
+                    </div> 
+                </div>
+
+                <div class="conhecimento">
+                    <div class="conhecimnto-header">
+                        <i class="fas fa-pencil-alt"></i>
+                        <h3>Design</h3>
+                    </div>
+                    <div class="conhecimento-text">
+                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+                            Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
+                    </div> 
+                </div>
+
+                <div class="conhecimento">
+                    <div class="conhecimnto-header">
+                        <i class="fab fa-js"></i>
+                        <h3>JavaScript</h3>
+                    </div>
+                    <div class="conhecimento-text">
+                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+                            Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
+                    </div> 
+                </div>
+
+                <div class="conhecimento">
+                    <div class="conhecimnto-header">
+                        <i class="fab fa-bootstrap"></i>
+                        <h3>Bootstrap</h3>
+                    </div>
+                    <div class="conhecimento-text">
+                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+                            Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
+                    </div> 
+                </div>
+
+                <div class="conhecimento">
+                    <div class="conhecimnto-header">
+                        <i class="fab fa-github"></i>
+                        <h3>GitHub</h3>
+                    </div>
+                    <div class="conhecimento-text">
+                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+                            Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
+                    </div> 
+                </div>
+                <div class="conhecimento-img">
+                    <img src="images/domore.jpg" alt="imagem" >
+                </div>
+            </div>
+        </section>
+            
+        <section class="sessao-projetos"  id="projetos">
+            <div class="sessao-header">
+                <h1>Projetos</h1>
+            </div>
+
+            <div class="projetos" >
+                <div class="card">
+                    <div class="card-img-wrapper">
+                        <img src="/images/teste.jpg" alt="imagem do projeto" >
+                    </div>
+                    <div class="card-info">
+                        <h2>Algo</h2>
+                        <h3>Tecnologia do Projeto</h3>
+                        <p>....</p>
+                        <button>Saiba Mais</button>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card-img-wrapper">
+                        <img src="/images/teste.jpg" alt="imagem do projeto">
+                    </div>
+                    <div class="card-info">
+                        <h2>Algo</h2>
+                        <h3>Tecnologia do Projeto</h3>
+                        <p>...</p>
+                        <button>Saiba Mais</button>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card-img-wrapper">
+                        <img src="/images/teste.jpg" alt="imagem do projeto">
+                    </div>
+                    <div class="card-info">
+                        <h2>Algo</h2>
+                        <h3>Tecnologia do Projeto</h3>
+                        <p>...</p>
+                        <button>Saiba Mais</button>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+        </section>
+
+        <section class="sessao-contato" id="contatos">
+            <div class="contato-wrapper">
+
+                <div class="contato-right">
+                    <h1>Contato</h1>
+                    <form >
+                        <div class="input-group">
+                            <input type="text" class="field" id="nome">
+                            <label for="nome" class="field-label">Nome</label>
+                        </div>
+
+                        <div class="input-group">
+                            <input type="email" class="field" name="" id="email">
+                            <label for="email" class="field-label">E-mail</label>
+                        </div>
+
+                        <div class="input-group">
+                            <textarea class="field" id="mensagem"></textarea>
+                            <label for="mensagem" class="field-label">Apresente a ideia do projeto</label>
+                        </div>
+                        <button type="submit" class="btn-submit">Enviar</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+
+        <section class="sessao-orcamento" id="orcamentos">
+            <div class="orcamento-wrapper">
+                <h1>Orçamento</h1>
+                <form action="">
+                    <label for="qtde">Quantidade de Paginas</label>
+                    <input type="number" min="1" name="qtde" id="qtde">
+
+                    <label for="js">Arquivo Js</label>
+                    <input type="checkbox" name="js" id="js">
+
+                    <label>Layout</label>
+                    <div class="group-layout">
+                        <div>
+                            <input type="radio" name="layout" id="layout-sim">
+                            <label for="layout-sim">Fazer Layout</label>
+                        </div>
+
+                        <div>
+                            <input type="radio" name="layout" id="layout-nao">
+                            <label for="layout-nao">Já tenho Layout</label>
+                        </div>
+                    </div>
+
+                    <label for="prazo">Prazo</label>
+                    <input type="range" name="prazo" id="prazo" min="1" max="10">
+                    <button class="btn-submit" type="submit">Enviar</button>
+                    <label id="preco">Preço R$:0,00</label>
+                </form>
+            </div>
+        </section>
+
+        <footer>
+            <div class="footer-content">
+                <p>
+                    Copy
+                </p>
+                <div class="social-list">
+                    <ul>
+                    <li><a href=""><i class="fab fa-facebook"></i></a></li>
+                    <li><a href=""><i class="fab fa-github"></i></a></li>
+                    <li><a href=""><i class="fab fa-linkedin"></i></a></li>   
+                    </ul>
+                </div>
+            </div>
+        </footer>
+        <a href="#home" id="link-topo">
+            <i class="fas fa-arrow-up"></i>
+        </a>
+
     </div>
 </body>
+<script src="script.js"></script>
 </html>
