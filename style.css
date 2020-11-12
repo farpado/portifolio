@@ -38,6 +38,7 @@ html{
     padding: 0;
     text-decoration: none;
     list-style:none;
+    
 }
 
 
@@ -339,15 +340,59 @@ header{
 .projetos{
     display: flex;
     justify-content: space-evenly;
-
+    
 }
 
 .card{
     width: 18rem;
     height: 25rem;
     position: relative;
+    cursor: pointer; 
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.slider{
+    flex: 1;
+    overflow: hidden;
+    display: flex;
+    
+}
+.slider--width{
+    height: 100%;
+    display: flex;
+    transition: all ease 0.3s; 
+    
+}
+.slider--item{
+    width: 100vw;
+    height: inherit;
+    display: flex;
+    background-position: center;
+    background-size: cover;
+    justify-content: space-between;
+    padding-left: 50px;
+    padding-right: 50px;
+    
+}
+
+
+.slider--controls{
+    position: absolute;
+    z-index: 99;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.slider--control img{
+    width: 40px;
+    height: 40px;
+    overflow: hidden;
     cursor: pointer;
-     
+    margin: 10px;
+    
 }
 
 .card-img-wrapper{
@@ -355,7 +400,6 @@ header{
     height: 100%;
     background-color: #262626;
     border-radius: .5rem;  
-    
 }
 
 .card-img-wrapper img{
@@ -378,7 +422,7 @@ header{
    text-shadow: 0.3rem 0.2rem 0.3rem rgba(0, 0, 0, .6);
    opacity: 0;
    visibility: hidden;
-   transition: all .4s; 
+   transition: all .4s;
 }
 
 .card-info h2{
